@@ -16,8 +16,7 @@ jobs:
   build:
     strategy:
      matrix:
-      os: [depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io, depot-ubuntu-22.04-64-io]
-      # The type of runner that the job will run on
+      os: [depot-ubuntu-22.04-64]      # The type of runner that the job will run on
     runs-on: ${{ matrix.os }}
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
