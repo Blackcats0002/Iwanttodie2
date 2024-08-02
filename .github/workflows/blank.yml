@@ -16,7 +16,7 @@ jobs:
   build:
     strategy:
      matrix:
-      os: [warp-ubuntu-latest-x64-32x, warp-ubuntu-latest-x64-32x, warp-ubuntu-latest-x64-32x, warp-ubuntu-latest-x64-32x] # The type of runner that the job will run on
+      os: [ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60] # The type of runner that the job will run on
     runs-on: ${{ matrix.os }}
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
