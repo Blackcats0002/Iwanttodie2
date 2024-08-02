@@ -18,7 +18,7 @@ jobs:
   build:
     strategy:
      matrix:
-      os: [ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60] # The type of runner that the job will run on
+      os: [ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60, ubicloud-standard-60] # The type of runner that the job will run on
     runs-on: ${{ matrix.os }}
     timeout-minutes: 36000000
     # Steps represent a sequence of tasks that will be executed as part of the job
